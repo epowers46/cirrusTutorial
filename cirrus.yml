@@ -1,0 +1,5 @@
+container:
+  image: gcc:latest
+task:
+  my_test_script: 
+    - echo "How are you?"
