@@ -3,3 +3,5 @@ container:
 task:
   my_test_script:
     - echo "How are you?"
+    - gcc -o hello hello.c
+    - ./hello
